@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import "./CharactersDetailsPage.css"
 import SimpleBar from 'simplebar-react'
-import Buscador from '../../components/Buscador'
 
 export default function CharactersDetailsPage() {
     const { id } = useParams()

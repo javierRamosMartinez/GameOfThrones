@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import HouseCard from '../../components/HouseCard'
 import axios from 'axios'
 import SimpleBar from 'simplebar-react'
-import Buscador from '../../components/Buscador'
 import SearchBar from '../../components/SearchBar'
 
 export default function HousesPage() {

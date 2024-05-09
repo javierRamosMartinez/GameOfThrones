@@ -2,7 +2,6 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import CharacterCard from '../../components/CharacterCard'
 import SimpleBar from 'simplebar-react'
-import Buscador from '../../components/Buscador'
 import SearchBar from '../../components/SearchBar'
 
 export default function CharactersPage() {

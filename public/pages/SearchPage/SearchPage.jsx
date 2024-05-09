@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { useSearchContext } from '../../components/Buscador';
 import { Link, useLocation } from 'react-router-dom';
 import axios from 'axios';
 import SearchBar from '../../components/SearchBar';
