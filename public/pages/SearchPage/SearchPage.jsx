@@ -78,6 +78,7 @@ export default function SearchPage() {
             <SearchBar setSearch={setSearchTerm} />
             <div className='container text-center'>
                 <div className='row'>
+                    <h3>Characters</h3>
                     {filteredCharacters.map((elemento, i) => <div className='col-lg-2 col-md-4 col-sm-10'>
                         <div className="image-container-character p-2">
                             <img src={elemento.image} />
@@ -87,6 +88,7 @@ export default function SearchPage() {
                     )}
                 </div>
                 <div className='row'>
+                    <h3>Houses</h3>
                     {filteredHouses.map((elemento, i) => <div className='col-lg-2 col-md-4 col-sm-10'>
                         <div className="image-container-character p-2">
                             <img src={elemento.image} />

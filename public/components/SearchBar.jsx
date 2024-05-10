@@ -19,8 +19,8 @@ export default function SearchBar({ setSearch }) {
     return (
         <div className='searchBarParent'>
             <div>
-                <input className='searchInput' type='text' placeholder='Buscar personajes' value={searchTerm} onChange={handleSearchChange} />
-                <Link to={`/search-results/${searchTerm}`} className="searchButton" onClick={handleSearchButtonClick}>
+                <input className='searchInput' type='text' placeholder='Buscar personajes y casas' value={searchTerm} onChange={handleSearchChange} />
+                <Link to={`/search-results/${searchTerm}`} className="searchButton" onClick={handleSearchButtonClick} >
                     <button>Buscar</button>
                 </Link>
             </div>

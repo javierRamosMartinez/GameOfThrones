@@ -13,13 +13,15 @@ export default function CronologyPage() {
             // Ordenar los personajes por edad
             charactersData.sort((a, b) => a.age - b.age);
             setCharacters(charactersData);
-            console.log(response.data);
+            // console.log(response.data);
         }
         getOrdenedCharacters()
     }, [])
 
     return (
         <SimpleBar style={{ maxHeight: 678, top: 80 }}>
+            <div className='barra'></div>
+            <div className='encabezadoDiv'><h1 className='encabezado'>0</h1></div>
             <div>
                 <CronologyCard characters={characters} />
             </div>
